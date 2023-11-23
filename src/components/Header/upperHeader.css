@@ -1,0 +1,24 @@
+.upperHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem 0;
+}
+.leftHeader {
+  width: 50%;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.rightHeader {
+  width: 15%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.verticalLine {
+  height: 2rem;
+  border: 0.1px solid red;
+}

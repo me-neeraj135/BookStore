@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.nav_serchbar {
+  display: flex;
+  height: 2rem;
+  border: 1px solid #e42b26;
+}
+.nav_serchbar > input {
+  font-size: 1rem;
+  padding-left: 1rem;
+  width: 500px;
+  border: none;
+  outline: none;
+}
+.search_icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 0.3rem;
+  background-color: #e42b26;
+}

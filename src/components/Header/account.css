@@ -1,0 +1,61 @@
+.dropdown {
+  display: flex;
+  position: relative;
+
+  align-items: center;
+  padding-right: 0.3rem;
+}
+.user_name {
+  padding: 0 1rem;
+  font-size: 0.9rem;
+  color: gray;
+  font-weight: 100;
+}
+.dropdown_content {
+  display: none;
+  width: 15rem;
+
+  border-radius: 3px;
+  padding: 0.5rem;
+  text-align: center;
+  position: absolute;
+  top: 33px;
+  right: 0;
+  border: 1px solid gray;
+  background-color: #f9f9f9;
+  z-index: 1;
+}
+.middle_content {
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+  margin: 1rem 0;
+  padding: 1rem 0;
+}
+
+.middle_content > p {
+  padding: 0.5rem 0;
+}
+.login {
+  background-color: #e42b26;
+  padding: 0.5rem;
+  border-radius: 3px;
+}
+.login > a {
+  color: white;
+  text-decoration: none;
+}
+
+.dropdown:hover .dropdown_content {
+  display: block;
+}
+
+.user_name {
+  text-transform: capitalize;
+}
+
+.currencyBox {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  text-transform: capitalize;
+}

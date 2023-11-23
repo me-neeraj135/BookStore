@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.lowerHeader {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem;
+}
+.leftLowerHead {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.leftLowerHead > li {
+  font-size: 0.8rem;
+  text-transform: capitalize;
+  border-right: 1px solid red;
+  padding: 0.3rem 0.5rem;
+}
+
+.leftLowerHead > li:hover {
+  font-weight: 500;
+}

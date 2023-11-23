@@ -1,0 +1,70 @@
+.footerContainer {
+  padding: 1rem;
+  border-top: 2px solid rgb(185, 182, 182);
+}
+.footerLinks {
+  display: flex;
+  justify-content: space-around;
+}
+.footerLinks > div > p {
+  text-transform: capitalize;
+  font-style: italic;
+  font-weight: 600;
+  color: red;
+}
+.footerLinks > div > ul > li {
+  margin: 0.5rem 0;
+}
+.footerLinks > div > ul > li > a {
+  text-transform: capitalize;
+  text-decoration: none;
+  color: black;
+}
+.footerLinks > div > ul > li > a:hover {
+  text-decoration: underline;
+  font-weight: 500;
+}
+
+.socialMedia {
+  display: flex;
+  justify-content: center;
+}
+
+.smLinks {
+  width: 30px;
+  height: 30px;
+  margin: 1rem;
+  border-radius: 50%;
+}
+.icon {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.ficon {
+  color: blue;
+}
+.licon {
+  color: white;
+  background-color: blue;
+  border-radius: 50%;
+}
+.xicon {
+  color: white;
+  background-color: black;
+  border-radius: 50%;
+}
+.picon {
+  color: red;
+}
+.yicon {
+  color: red;
+}
+.instaicon {
+  color: red;
+}
+.copyrightBox {
+  text-align: center;
+  font-size: 1.2rem;
+  color: gray;
+}
